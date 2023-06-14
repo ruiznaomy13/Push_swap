@@ -6,13 +6,16 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/14 17:17:24 by ncastell          #+#    #+#             */
-/*   Updated: 2023/06/14 17:18:14 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/06/14 17:54:49 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int start_stack(t_stack *a, t_stack *b)
+void start_stack(t_stack *a, t_stack *b)
 {
-    return 0;
+    a->first = NULL;
+    a->size = 0;
+    b->first = NULL;
+    b->size = 0;
 }
